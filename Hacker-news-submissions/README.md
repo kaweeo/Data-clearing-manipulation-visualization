@@ -1,1 +1,1 @@
-Making an API calls and storing the reponses.
+# Making API calls and storing responses exercising. 
