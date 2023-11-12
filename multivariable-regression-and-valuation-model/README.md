@@ -1,4 +1,4 @@
-### Exercise with old house price data 
+## Exercise with old house price data 
 
 1. Analyse and explore the Boston house price data
 2. Split data for training and testing
