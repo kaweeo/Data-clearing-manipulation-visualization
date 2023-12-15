@@ -1,8 +1,6 @@
 import json
-
 import pygal
 from pygal.style import LightColorizedStyle as LCS, RotateStyle as RS
-
 from country_codes import get_country_code
 
 # Load the data into a list.
@@ -21,7 +19,6 @@ for pop_dict in pop_data:
             cc_populations[code] = population
         else:
             print("ERROR - " + country_name)
-
 
 # Group the countries into 3 population levels.
 cc_pops_1, cc_pops_2, cc_pops_3 = {}, {}, {}
